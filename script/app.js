@@ -43,6 +43,8 @@ document.addEventListener('keydown', (e)=>{
     }
     else if(e.keyCode == 40 && d !="U"){
         d = "D"
+    }else if (e.keyCode==32) {
+        history.go();
     }
     
 })
